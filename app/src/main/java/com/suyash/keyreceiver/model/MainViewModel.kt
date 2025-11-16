@@ -63,7 +63,7 @@ class MainViewModel @Inject constructor(
     fun fetchData() {
         viewModelScope.launch(Dispatchers.Main) {
             _apiKeysReady.value = RequestState.Loading
-            delay(1000)
+            delay(10000) //delay of 10 sec to view network tab
             _apiKeysReady.value = fetchApiKeysAndStoreThemSecurely()
         }
     }

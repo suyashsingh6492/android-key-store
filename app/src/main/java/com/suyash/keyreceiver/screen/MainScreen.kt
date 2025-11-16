@@ -79,15 +79,15 @@ fun MainScreen(
                 verticalArrangement = Arrangement.Bottom,
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
-                Icon(
-                    modifier = Modifier
-                        .padding(bottom = 20.dp)
-                        .size(100.dp)
-                        .alpha(0.15f),
-                    painter = painterResource(id = R.drawable.round_warning_amber_24),
-                    contentDescription = "Error Image",
-                    tint = MaterialTheme.colorScheme.onSurface
-                )
+//                Icon(
+//                    modifier = Modifier
+//                        .padding(bottom = 20.dp)
+//                        .size(100.dp)
+//                        .alpha(0.15f),
+//                    painter = painterResource(id = R.drawable.round_warning_amber_24),
+//                    contentDescription = "Error Image",
+//                    tint = MaterialTheme.colorScheme.onSurface
+//                )
                 Text(
                     modifier = Modifier
                         .alpha(0.5f)
